@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: gray;
+  transition: background-color 1s;
+}
+.content {
+  margin: 20% auto auto auto;
+  border: 3px solid white;
+  width: 500px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  transition: color 1s;
+}
+#controls {
+  display: flex;
+  margin: 20px 20px;
+  flex-wrap: nowrap;
+}
+#newQuote {
+  flex-basis: 50%
+  padding: 5px;
+  margin-left: 40%;
+}
+#share {
+  flex-basis: 30%;
+  padding: 0px;
+  margin-right: 5%;
+}
+button {
+  border: 0;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  transition: color 1s;
+}
+button:hover {
+  cursor: pointer;
+}
+#faceShare, #twitterShare {
+  margin: 0 5px;
+}
+footer {
+  margin-top: 10%;
+  color: white;
+}
+.red {
+  color: red;
+}
+#quote {
+  color: gray;
+  font-size: 20px;
+  transition: color 1s;
+}
+#quoteTeller {
+  color: gray;
+  margin-left: 50%;
+  transition: color 1s;
+}
+a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+  transition: background-color 1s;
+  color: white;
+
+}
+a:visited {
+  color: white;
+}
